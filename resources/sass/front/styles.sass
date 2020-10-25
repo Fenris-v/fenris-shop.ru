@@ -1,0 +1,58 @@
+img
+    max-width: 100%
+
+.nav-item
+    border-bottom: 6px solid transparent
+    transition: all 0.4s linear
+
+    &:hover, &.active
+        transition: all 0.4s linear
+        border-bottom: 6px solid $primary
+
+.btn-square-30
+    width: 30px
+    height: 30px
+
+.firstScreen
+    &-text
+        border-width: 6px !important
+        top: 50%
+        transform: translateY(-50%)
+
+.category-block
+    transition: all 0.4s linear
+
+    &:hover
+        transform: scale(1.03)
+        transition: all 0.2s linear
+
+    &-text
+        top: 10%
+
+.bottom
+    &-plus
+        height: 100%
+        width: 100%
+        object-fit: cover
+
+    &-text
+        top: 15%
+        left: 5%
+
+.s_feedback
+    background: url("/images/main/feedbackBg.png")
+    background-size: cover
+    height: 440px
+
+.breadcrumb
+    background: transparent
+    justify-content: flex-end
+
+    &-item a
+        color: #000000
+
+    &-item.active
+        color: #ffffff
+
+.breadcrumb-item + .breadcrumb-item::before
+    color: #000000
